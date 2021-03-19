@@ -88,7 +88,7 @@ export default {
           const user = result.user
           console.log('token x : ' + token)
           alert('login successful!')
-          this.$router.replace('/Profile')
+          this.$router.replace('/Shop')
         })
 
         .catch((error) => {
@@ -119,7 +119,7 @@ export default {
           const user = result.user
           console.log('user=' + user)
           // ...
-          this.$router.replace('/Profile')
+          this.$router.replace('/Shop')
         })
         .catch((error) => {
           // Handle Errors here.
